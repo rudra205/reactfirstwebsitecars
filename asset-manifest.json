@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactfirstwebsitecars/static/css/main.1e48a9e9.chunk.css",
+    "main.js": "/reactfirstwebsitecars/static/js/main.10241629.chunk.js",
+    "main.js.map": "/reactfirstwebsitecars/static/js/main.10241629.chunk.js.map",
+    "runtime-main.js": "/reactfirstwebsitecars/static/js/runtime-main.dbe09ac7.js",
+    "runtime-main.js.map": "/reactfirstwebsitecars/static/js/runtime-main.dbe09ac7.js.map",
+    "static/js/2.7cf98b06.chunk.js": "/reactfirstwebsitecars/static/js/2.7cf98b06.chunk.js",
+    "static/js/2.7cf98b06.chunk.js.map": "/reactfirstwebsitecars/static/js/2.7cf98b06.chunk.js.map",
+    "index.html": "/reactfirstwebsitecars/index.html",
+    "static/css/main.1e48a9e9.chunk.css.map": "/reactfirstwebsitecars/static/css/main.1e48a9e9.chunk.css.map",
+    "static/js/2.7cf98b06.chunk.js.LICENSE.txt": "/reactfirstwebsitecars/static/js/2.7cf98b06.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactfirstwebsitecars/static/media/lamborghini-aventador-svj-2560x1440-2019-cars-supercar-hd-20243.18927aa3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbe09ac7.js",
+    "static/js/2.7cf98b06.chunk.js",
+    "static/css/main.1e48a9e9.chunk.css",
+    "static/js/main.10241629.chunk.js"
+  ]
+}
