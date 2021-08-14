@@ -1,0 +1,167 @@
+.footer-container{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding:4rem 0 2rem 0;
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+    padding: 24px;
+    text-align: center;
+}
+.footer-subscription p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer-subscription-heading{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+.footer-subscription-text{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.footer-subscription input{
+   
+    
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin:0 0 10px 0;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    
+    width: 70%;
+    color: rgb(133, 146, 145);
+}
+.footer-subscription button{
+    width: 50%;
+    
+}
+.footer-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.footer-link-wrapper{
+    display: flex;
+   
+    
+}
+.footer-link-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.footer-link-item h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.footer-link-item a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.footer-link-item a:hover{
+    color: rgb(0, 189, 247);
+    transition: 0.3s;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+.social-media-wrap a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+.social-media-wrap a:hover{
+    color:rgb(0, 189, 247) ;
+}
+.social-media-wrap i:hover{
+   text-shadow:0px 0px 8px red;
+}
+.rights{
+    color: white;
+    margin: 0 auto 0 auto;
+
+}
+.rights:hover{
+    color:rgb(0, 189, 247) ;
+}
+.social-icons a{
+    color: white;
+    
+}
+.social-icons a:hover{
+    color:  rgb(0, 189, 247);
+}
+.social-media-wrap{
+    margin: 0 auto 0 20px;
+}
+.social-icons{
+    margin: 0 20px 0 auto;
+}
+.icons-social{
+    padding: 5px;
+}
+
+
+@media screen and (max-width:800px){
+    .footer-subscription input{
+        width: 100%;
+        margin-left: 0;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .footer-subscription button{
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .footer-link-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media-wrap{
+        margin: auto auto 20px auto;
+    }
+    .social-icons{
+        margin: 20px auto auto auto;
+    }
+
+}
+

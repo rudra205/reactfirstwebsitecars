@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.home,
+.services,
+.products,
+.signup{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 50px;
+    height: 90vh;
+}
+.services{
+    background-image: url('imageess/1967_charge_cars_ford_mustang_4k_2-2560x1440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond;
+}
+.products{
+    background-image: url('imageess/lamborghini-aventador-svj-2560x1440-2019-cars-supercar-hd-20243.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond;
+}
