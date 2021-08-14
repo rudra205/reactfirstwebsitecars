@@ -13,11 +13,12 @@ function App() {
      
      <Router>
        <Navbar/>
+       <Home/>
        <Switch>
-         <Route path='/' exact component={Home}/>
-         <Route path='/services' exact component={Services}/>
+         {/* <Route path='/' exact component={Home}/> */}
+         {/* <Route path='/services' exact component={Services}/>
          <Route path='/products' exact component={Products}/>
-         <Route path='/signup' exact component={signup}/>
+         <Route path='/signup' exact component={signup}/> */}
        </Switch>
      </Router>
 
